@@ -9,3 +9,7 @@ Primjer ilustrira primjenu stanja u React komponenti koja služi kao semafor rez
 ## Otvorite u StackBlitz editoru
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/split-edu/snip-use-state)
+
+## License
+
+- [GNU AGPL Version 3](./LICENSE)
