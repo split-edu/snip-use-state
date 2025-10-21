@@ -2,16 +2,17 @@ import clubLogo from "./assets/Chelsea-Logo.png";
 import { useState } from "react";
 
 export function ClubScoreSemaphore() {
+  const logoDescr = 'Chelsea FC logo image';
+  const clubName = 'Chelsea FC';
+
   const [scoreClub, setScoreClub] = useState(0)
   const upScore = () => setScoreClub(scoreClub + 1)
   const resetScore = () => setScoreClub(0)
-  const imgAlt = 'Chelsea FC logo image';
-  const clubName = 'Chelsea FC';
 
   return <>
     <div className="panel-half">
       <div className="club-preview-half">
-        <img src={clubLogo} className="logo" alt={imgAlt}/>
+        <img src={clubLogo} className="logo" alt={logoDescr}/>
         <div>{clubName}</div>
       </div>
       <div className="score-half">
